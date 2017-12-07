@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.sql.DatabaseMetaData;
 import java.sql.DriverManager;
 import java.sql.SQLException;
-
+// Modelo prueba cambiar todo 
 public class ConexionORACLE {
 // Cadena Conexion MySQLString 
     String StrConxORACLE= "jdbc:oracle:thin:@localhost:1521:XE";
