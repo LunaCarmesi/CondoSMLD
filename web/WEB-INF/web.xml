@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>SeccionServlet</servlet-name>
+        <servlet-class>ServLets.SeccionServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SeccionServlet</servlet-name>
+        <url-pattern>/mttoSeccion.do</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>EmpleadosServlet</servlet-name>
+        <servlet-class>ServLets.EmpleadosServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EmpleadosServlet</servlet-name>
+        <url-pattern>/mttoEmpleados.do</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>ViviendaServlet</servlet-name>
+        <servlet-class>ServLets.ViviendaServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ViviendaServlet</servlet-name>
+        <url-pattern>/mttoVivienda.do</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>ResidenteServlet</servlet-name>
+        <servlet-class>ServLets.ResidenteServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ResidenteServlet</servlet-name>
+        <url-pattern>/mttoResidente.do</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>ProveedorServlet</servlet-name>
+        <servlet-class>ServLets.ProveedorServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ProveedorServlet</servlet-name>
+        <url-pattern>/mttoProveedor.do</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>VehiculoServlet</servlet-name>
+        <servlet-class>ServLets.VehiculoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>VehiculoServlet</servlet-name>
+        <url-pattern>/mttoVehiculo.do</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ClasePresupuestalServlet</servlet-name>
+        <servlet-class>ServLets.ClasePresupuestalServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ClasePresupuestalServlet</servlet-name>
+        <url-pattern>/ClasePresupuestal.do</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>CuotasServlet</servlet-name>
+        <servlet-class>ServLets.CuotasServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CuotasServlet</servlet-name>
+        <url-pattern>/GenerarCuota.do</url-pattern>
+    </servlet-mapping>
+    
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
